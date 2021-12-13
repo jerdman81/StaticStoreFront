@@ -1,0 +1,254 @@
+/* Color Palette 
+   #558776
+   #a3a847
+   #7f8b52
+   #eae2b6
+   #39393a
+   */
+  
+
+
+/*Common elements*/
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin-bottom: 15rem;
+}
+
+a, a:visited {
+  color: #eae2b6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #838a47;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 125px;
+  margin: 0;
+  padding: 0;
+  background-color: #558776;
+  display: fixed;  
+  position: fixed;
+  vertical-align: center;
+}
+
+footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 10rem;
+  padding: 0;
+  background-color: #39393a;
+  color: #eae2b6;
+}
+
+/*Header*/
+
+/*Nav Bars*/
+
+nav {
+ display: inline-block;
+ position: relative;
+ width: 40rem;
+ left: 5%;
+ top: 0;
+ text-align: justify;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 0;
+  font-size: 2rem;
+  padding-left: 0.5rem;
+}
+
+.acctNav::before{  /*doesn't do anything for some reason */
+  content: "| ";
+  color: #eae2b6;
+}
+
+
+.headerstore {
+
+ display: inline-block;
+ text-align: right;
+ position: absolute;
+ right: 5%;
+ top: 50%; 
+}
+
+.headerstore ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.headerstore li {
+  display: inline-block;
+  margin: 0;
+}
+
+/*body*/
+#mainbody {
+  position:relative;
+  display: inline-block;
+  top: 125px;
+  width: 100%;
+  max-width: 100%;
+  z-index: -1;
+}
+
+.welcome {
+  
+  text-align: center;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  font-size: 2rem;
+}
+
+
+#contentboxes {
+  display: inline-block;
+  
+}
+
+/*Sidebar Section*/
+#featuredvendors {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 20%;
+  text-align: center;
+  background-color: #a3a847;
+}
+
+#featuredvendors h1 {
+  font-size: 28pt;
+  font-weight: bold;
+}
+.verticalflex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#featuredvendors img {
+  height: 15rem;
+  width: 15rem;
+  margin: 0;
+  padding: 2rem;
+}
+
+/*Main Section*/
+#merchcats {
+  display: inline-block;
+  width: 70%;
+  margin: 1rem;
+  padding: 3rem;
+
+}
+
+.horizontalflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:space-evenly;
+  margin: 2rem;
+  padding: 0.5rem;
+  background-color: #a3a847;
+  border: 1px solid black;
+}
+
+.horizontalflex h1 {
+  font-size: 36pt;
+  font-weight: bold;
+}
+
+.horizontalflex img {
+  text-align: center;
+  height: 10rem;
+  width: 10rem;
+  margin: 2rem;
+  padding: 0;
+  border: 2px solid black;
+}
+
+
+/*Chat*/
+
+
+/*Footer*/
+
+.subscribe {
+  width: 30%;
+  vertical-align: middle;
+  display: inline-block;  
+  position: absolute;
+  left: 0;
+  padding-left: 1rem;
+}
+
+.legal {
+  width: 30%;
+  vertical-align: middle;
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+  align-items: center;
+}
+
+.legal ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.legal li {
+  display: inline-block;
+  margin: 0;
+}
+
+
+.sociallinks {
+  width: 15%;
+  vertical-align: middle;
+  display: inline-block;
+  position: absolute; 
+  right: 0;
+  padding: 1rem;
+} 
+
+.sociallinks img {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.25rem;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+}
