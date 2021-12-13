@@ -14,6 +14,7 @@ html {
   min-height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .wrapper {
@@ -38,11 +39,11 @@ body {
 }
 header {
   width: 100%;
-  height: 125px;
+  height: 9rem;
   margin: 0;
   padding: 0;
   background-color: #558776;
-  display: fixed;  
+  display: flex;  
   position: fixed;
   vertical-align: center;
 }
@@ -68,8 +69,8 @@ nav {
  display: inline-block;
  position: relative;
  width: 40rem;
- left: 5%;
- top: 0;
+ left: 2%;
+ top: 35%;
  text-align: justify;
 }
 
@@ -82,7 +83,7 @@ nav li {
   display: inline-block;
   margin: 0;
   font-size: 2rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .acctNav::before{  /*doesn't do anything for some reason */
@@ -97,7 +98,7 @@ nav li {
  text-align: right;
  position: absolute;
  right: 5%;
- top: 50%; 
+ top: 35%; 
 }
 
 .headerstore ul {
@@ -108,6 +109,8 @@ nav li {
 .headerstore li {
   display: inline-block;
   margin: 0;
+  font-size: 2rem;
+  padding-left: 1rem;
 }
 
 /*body*/
@@ -123,15 +126,14 @@ nav li {
 .welcome {
   
   text-align: center;
-  margin: 0.5rem;
+  margin: 0.25rem;
   padding: 0.25rem;
   font-size: 2rem;
 }
 
 
 #contentboxes {
-  display: inline-block;
-  
+  display: inline-block;  
 }
 
 /*Sidebar Section*/
@@ -199,7 +201,14 @@ nav li {
 
 
 /*Chat*/
-
+.chatbox {
+  position: absolute;
+  height:100px;
+  width: 100px;
+  right: 3em;
+  bottom: 15em;
+  z-index: 2;
+}
 
 /*Footer*/
 
@@ -209,6 +218,7 @@ nav li {
   display: inline-block;  
   position: absolute;
   left: 0;
+  top: 20%;
   padding-left: 1rem;
 }
 
@@ -219,6 +229,7 @@ nav li {
   position: absolute;
   left: 40%;
   align-items: center;
+  border: 1px solid black;
 }
 
 .legal ul {
@@ -239,6 +250,7 @@ nav li {
   display: inline-block;
   position: absolute; 
   right: 0;
+  top: 25%;
   padding: 1rem;
 } 
 
@@ -246,9 +258,4 @@ nav li {
   width: 3rem;
   height: 3rem;
   padding: 0.25rem;
-}
-
-img {
-  width: 3rem;
-  height: 3rem;
 }
